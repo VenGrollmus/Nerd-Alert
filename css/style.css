@@ -24,8 +24,8 @@ Table Of Contents:
 
 html,
 body {
-    padding: 5px 30px;
-    margin:0px;
+    min-height: 75rem;
+    padding-top: 4.5rem;
     background: #f7fafd;
     font-size: 18px;
 }
