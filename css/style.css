@@ -33,6 +33,14 @@ body {
 p {
     text-align:justify;
 }
+
+h2 {
+    text-align: center;
+}
+
+.scale-down {
+    object-fit: scale-down;
+}
 /******************************/
 /*         01.02.   Fonts      /
 /******************************/
@@ -44,9 +52,7 @@ body {
     font-family: 'Antic Slab', serif;
 }
 
-h2 {
-    text-align: center;
-}
+
 
 /******************************/
 /*     02. Navigation         */
