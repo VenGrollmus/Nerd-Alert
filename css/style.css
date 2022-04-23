@@ -26,6 +26,7 @@ html,
 body {
     min-height: 75rem;
     padding-top: 1.5rem;
+    padding-bottom: 3rem;
     background: #f7fafd;
     font-size: 18px;
 }
@@ -43,9 +44,15 @@ h2 {
 }
 
 
+/******************************/
+/*         01.02.   Table      /
+/******************************/
+
+
 .tg {
     border-collapse:collapse;
     border-spacing:0;
+    margin-bottom:10px;
 }
 
 .tg td {
@@ -53,7 +60,6 @@ h2 {
     border-style:solid;
     border-width:1px;
     font-size:14px;
-    overflow:hidden;
     padding:10px 5px;
     word-break:normal;
 }
@@ -64,20 +70,25 @@ h2 {
     border-width:1px;
     font-size:14px;
     font-weight:normal;
-    overflow:hidden;
     padding:10px 5px;
     word-break:normal;
 }
 
-.tg .tg-gpog {
-    border-color:#ffccc9;
+.tg .tg-c3ow {
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top;
+}
+
+.tg .tg-kftd {
+    background-color:#efefef;
     text-align:left;
-    vertical-align:top
+    vertical-align:top;
 }
 
 .tg .tg-0lax {
     text-align:left;
-    vertical-align:top
+    vertical-align:top;
 }
 
 /******************************/
@@ -107,11 +118,13 @@ body {
 /*     04. Footer             */
 /******************************/
 
+
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
 }
 
 /******************************/
