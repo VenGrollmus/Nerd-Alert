@@ -7,7 +7,7 @@
         <meta name="author" content="Ven Grollmus">
         <meta name="description" content="Nerd Alert for Assignment 2, COSC2196 - Intro to Information Technology (s8604623)">
 
-        <title>Personal Information - Nerd Alert (Assignment 2)</title>
+        <title>Project Idea - Nerd Alert (Assignment 2)</title>
 
         <!-- Cater for IE and HTML 5>
         <!--[if lt IE 9]>
@@ -16,9 +16,7 @@
         <![endif]-->
 
         <!-- Places an icon in the tab, feel free to create your own! -->
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
         <link rel="manifest" href="images/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
@@ -46,18 +44,22 @@
     </head>
     
     <body>
-        <header>
+         <header>
             <section id="contact-details">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="images/nerd-alert.jpg" alt="Image of Nerd Alert">
-                            <h1>Nerd Alert</h1>
-                            <h2>Team Assignment 2</h2>                                                        
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <img src="images/3.svg" alt="Image of Nerd Alert">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <h1>Assignment 2</h1>
                         </div>
                     </div>
                 </div>
             </section> <!-- End Contact Details -->
+
 
             <section>
                 <nav class="narvbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -69,22 +71,34 @@
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Personal Information</a>
+                                    <a class="nav-link" href="index.html">Personal Information</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Team Profile</a>
+                                    <a class="nav-link" href="team-profile.html">Team Profile</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Ideal Job</a>
+                                    <a class="nav-link" href="ideal-jobs.html">Ideal Job</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">IT Work</a>
+                                    <a class="nav-link" href="tools.html">Tools</a> 
                                 </li>
                                 <li>
-                                    <a class="nav-link">Industry Data</a>
+                                    <a class="nav-link" href="industry-data.html">Industry Data</a>
                                 </li>
-                                <li>
-                                    <a class="nav-link">References</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="it-work.html">IT Work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="it-technology.html">IT Technology</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="project-idea.html">Project Idea</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="group-reflection.html">Group Reflection</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="references.html">References</a>
                                 </li>
                             </ul>
                         </div>
@@ -93,173 +107,163 @@
             </section>
         </header>
 
-       <main>
-           <h1><b>Project Idea</b></h1>
+        <main id="main">
+            <div class="container">
+                <div class="row">
+                    <h3>Project Idea</h3>
+                    <h4>Overview</h4>
+                    <p>This project will design a tool that can empower staff by using software with conversational interactions using a chatbot. A chatbot could be a valuable tool to support staff within HR, Finance, and Staff Resources on services offered, process information, legislation, and policy details offered at the organisation. The chatbot will take input in a conversational manner, process the query and find an answer to match the request, then respond. On the outside the transcript will look like a normal conversation with two parties responding to each other.</p>
+                    <p>The chatbot's function would act as a training tool by receiving input from an individual, processing the input using NLP (Natural Language Processing), and provide an answer (What makes a great chatbot? Laser focus on customers, 2022). The input would be in the form of questions related to matters we usually get from customers and colleagues, pointing them in the right direction or giving them resources that could help them find the answers.  The chatbot will be trained to recognise topics and keywords and choose the most appropriate and relevant response using the NLP Nltk module. This tool would make life easier for individuals in positions such as frontline customer support in large and complex organisations.</p>
 
-<h3>Overview</h3>
-<p>This project will design a tool that can empower staff by using software with conversational interactions using a chatbot. A chatbot could be a valuable tool to support staff within HR, Finance, and Staff Resources on services offered, process information, legislation, and policy details offered at the organisation. The chatbot will take input in a conversational manner, process the query and find an answer to match the request, then respond. On the outside the transcript will look like a normal conversation with two parties responding to each other.
+                    <h4>Motivation</h4>
+                    <p>Chatbots are familiar with large companies that use the technology in online sales or provide basic customer service; I have had many experiences with speaking to a chatbot on my bank app regarding my account or finding a product on a website to buy. In my experience, there does not appear to be much of this technology used in the workplace to support internal staff. The focus and demand are more on how customer experience can be improved within a business and therefore improve the organisation's image.</p>
+                    <p>The project motivation cornerstone is based on helping people and I want to drive the focus of the plan towards supporting staff to do their jobs in an efficient and timely manner by creating this tool, building up a knowledge base, and then teaching it to provide the most appropriate answers. The points of conversational user experience outlined by Microsoft (Conversational User Experience Guide, 2021) will allow us to create a solid plan on how we want the chatbot to respond, give it a personality, and map out typical conversations from the user perspective. That will give us a good base to set up the appropriate environment and data sets to train the chatbot.</p>
+                    <p>The Chatbots' classification below shows that a chatbot can be developed and have multiple categories and uses. The categories usually begin from one area and is then expanded over time as required. The algorithms and techniques employed in the chatbot design determines if the chatbot is rule-based or machine learning (Adamopoulou and Moussiades, 2020). Rule based chatbots are pattern matching, where there are pre-defined conversations written into the software and only the last input is taken into consideration, whereas Machine Learning uses NLP and considers the context of the entire conversation. The algorithm and tools are critical in these chatbot designs.</p>
 
-The chatbot's function would act as a training tool by receiving input from an individual, processing the input using NLP (Natural Language Processing), and provide an answer (What makes a great chatbot? Laser focus on customers, 2022). The input would be in the form of questions related to matters we usually get from customers and colleagues, pointing them in the right direction or giving them resources that could help them find the answers.  The chatbot will be trained to recognise topics and keywords and choose the most appropriate and relevant response using the NLP Nltk module. This tool would make life easier for individuals in positions such as frontline customer support in large and complex organisations.</p>
+                    <figure>
+                        <img width="560" height="415" src="images/Chatbot.jpg"/>
+                        <figcaption>(Fig. 3. Chatbots’ Classification., 2020)</figcaption>                       
+                    </figure>
 
-<h3>Motivation</h3>
-<p>Chatbots are familiar with large companies that use the technology in online sales or provide basic customer service; I have had many experiences with speaking to a chatbot on my bank app regarding my account or finding a product on a website to buy. In my experience, there does not appear to be much of this technology used in the workplace to support internal staff. The focus and demand are more on how customer experience can be improved within a business and therefore improve the organisation's image. 
+                    <p>(Adamopoulou and Moussiades, 2020) If we were to further explore rule-based chatbot software, there are some available open-source examples at <a href="https://www.rivescript.com/" target="_blank">RiveScript</a> and <a href="http://chatscript.sourceforge.net/" target="_blank">ChatScript</a>. Rule based chatbots such as Clever Bot, Chatfuel, and Watson are just a few examples of pattern matching rule-based approaches to chatbot design (Ramesh, Ravishankaran, Joshi and Chandrasekaran, 2017).</p>
 
-The project motivation cornerstone is based on helping people and I want to drive the focus of the plan towards supporting staff to do their jobs in an efficient and timely manner by creating this tool, building up a knowledge base, and then teaching it to provide the most appropriate answers. The points of conversational user experience outlined by Microsoft (Conversational User Experience Guide, 2021) will allow us to create a solid plan on how we want the chatbot to respond, give it a personality, and map out typical conversations from the user perspective. That will give us a good base to set up the appropriate environment and data sets to train the chatbot. 
+                    <p>Cleverbot affiliated with Google matches input with existing conversations to respond. The cleverscript manual was interesting as it details the process, they followed in populating the input and output of the bot. They listed key words with responses and then expanded on the phrases and the different variations of the input words to recognise a wide range of broad questions (Cleverscript manual, 2022). Chatfuel is an Instagram, Facebook chatbot used to increase sales and integrated with an internal CRM system. Watson is a chatbot used to provide a wide range of advice but is well-known for health advice and the accuracy Watson has in diagnosing conditions based on a large amount of data. (Watson Health Solutions, 2022).</p>
 
-The Chatbots' classification below shows that a chatbot can be developed and have multiple categories and uses. The categories usually begin from one area and is then expanded over time as required. The algorithms and techniques employed in the chatbot design determines if the chatbot is rule-based or machine learning (Adamopoulou and Moussiades, 2020). Rule based chatbots are pattern matching, where there are pre-defined conversations written into the software and only the last input is taken into consideration, whereas Machine Learning uses NLP and considers the context of the entire conversation. The algorithm and tools are critical in these chatbot designs.</p>
+                    <p>I believe chatbots can improve services provided to staff to make their lives easier, and I would like to explore how we can develop a chatbot as a training tool by identifying vital information and planning the conversational experience.</p>
 
-<center><img width="560" height="415" src="images/Chatbot.jpg" />
-<p>(Fig. 3. Chatbots’ Classification., 2020)</P></center>
+                    <h4>Description</h4>
+                    <p>The project is loosely based on the Chatterbot documentation produced by Gunther Cox, which details all aspects of Gunther’s code in the Chatterbot module. Here we will consider Gunther’s process flow diagram as a good starting point to build the project plan.</p>
+                    
+                    <figure>
+                        <img width="375" height="550" src="images/Descriptions.jpg">
+                        <figurecaption>(Cox, n.d.)</figurecaption>
+                    </figure>
 
-<p>(Adamopoulou and Moussiades, 2020) If we were to further explore rule-based chatbot software, there are some available open-source examples at <a href="https://www.rivescript.com/">RiveScript</a> and <a href="http://chatscript.sourceforge.net/">ChatScript</a>. Rule based chatbots such as Clever Bot, Chatfuel, and Watson are just a few examples of pattern matching rule-based approaches to chatbot design (Ramesh, Ravishankaran, Joshi and Chandrasekaran, 2017).
+                    <p><strong>To further expand on the points in the diagram:</strong></p>
+                    <p><u>Application Programming Interface (API)</u></p>
+                    <p>A web API would be sufficient on SharePoint, we can focus on building a basic outline of a chatbot in python and host it online using Flask. There are also other options if that does not work out as expected, such as AWS (Amazon Web Services) and Azure.</p>
+                    <p><u>Console – web browser</u></p>
+                    <p>Console will be as simple as using the web browser such as google chrome or Firefox as that is sufficient for this purpose.</p>
+                    <p><u>Speech recognition - Natural Language Processing</u></p>
+                    <p>NLP has evolved by applying different methods and operations to process user input for the software to understand (Whitaker, Kamath and Liu, 2020). There are several libraries created for Python which we can utilize and explore to process user input such as:</p>
+                    <ul>
+                        <li>NLTK</li>
+                        <li>Genism</li>
+                        <li>SpaCy</li>
+                        <li>OpenNLP</li>
+                        <li>AllenNLP</li>
+                    </ul>
 
-Cleverbot affiliated with Google matches input with existing conversations to respond. The cleverscript manual was interesting as it details the process, they followed in populating the input and output of the bot. They listed key words with responses and then expanded on the phrases and the different variations of the input words to recognise a wide range of broad questions (Cleverscript manual, 2022). Chatfuel is an Instagram, Facebook chatbot used to increase sales and integrated with an internal CRM system. Watson is a chatbot used to provide a wide range of advice but is well-known for health advice and the accuracy Watson has in diagnosing conditions based on a large amount of data. (Watson Health Solutions, 2022).
+                    <p>My intention for this project is to create a basic set of operations within the python program and build from it as I get familiar with the software. Presently I have created a standard working chatbot in python using NLTK and am amid understanding how I can train the chatbot to choose appropriate responses in conversation.</p>
 
-I believe chatbots can improve services provided to staff to make their lives easier, and I would like to explore how we can develop a chatbot as a training tool by identifying vital information and planning the conversational experience.</p>
+                    <p><strong><u>Process Input Logic adapters</u></strong></p>
+                    <p>Currently my test bot output is not very smart as it is using the chat util module in nltk, where I have entered a simple conversation and matched input with responses as shown below. My test bot code is found on GitHub here: <a href="https://github.com/Samanthaporium22/chatbot" target="_blank">Sam's Git Hub.</a></p>
 
-<h3>Description</h3>
-<p>The project is loosely based on the Chatterbot documentation produced by Gunther Cox, which details all aspects of Gunther’s code in the Chatterbot module. Here we will consider Gunther’s process flow diagram as a good starting point to build the project plan.</p>
-
-<center><img width="375" height="550" src="images/Descriptions.jpg">
-<p>(Cox, n.d.)</p></center>
-
-<p><b>To further expand on the points in the diagram:</b>
-
-<p><u>Application Programming Interface (API)</u></p>
-<p>A web API would be sufficient on SharePoint, we can focus on building a basic outline of a chatbot in python and host it online using Flask. There are also other options if that does not work out as expected, such as AWS (Amazon Web Services) and Azure.</p>
-<p><u>Console – web browser</u></p>
-<p>Console will be as simple as using the web browser such as google chrome or Firefox as that is sufficient for this purpose.</p>
-<p><u>Speech recognition - Natural Language Processing</u></p>
-<p>NLP has evolved by applying different methods and operations to process user input for the software to understand (Whitaker, Kamath and Liu, 2020). There are several libraries created for Python which we can utilize and explore to process user input such as:</p>
-
-   		<p style="margin-left:7%; margin-right:10%;">NLTK</p>
-
-   		<p style="margin-left:7%; margin-right:10%;">Genism</p>
-
-    		<p style="margin-left:7%; margin-right:10%;">SpaCy</p>
-
-   		<p style="margin-left:7%; margin-right:10%;">OpenNLP</p>
-
-   		<p style="margin-left:7%; margin-right:10%;">AllenNLP</p>
-
-<p>My intention for this project is to create a basic set of operations within the python program and build from it as I get familiar with the software. Presently I have created a standard working chatbot in python using NLTK and am amid understanding how I can train the chatbot to choose appropriate responses in conversation.</p>
-<p><b><u>Process Input Logic adapters</b></u></p>
-<p>Currently my test bot output is not very smart as it is using the chat util module in nltk, where I have entered a simple conversation and matched input with responses as shown below. My test bot code is found on GitHub here:<a href="https://github.com/Samanthaporium22/chatbot">SamGitHub</a></p>
-
-<center><img width="534" height="473" src="images/Python.jpg"></center>
-<center><img width="533" height="474" src="images/Python1.jpg"></center>
-<center><img width="534" height="473" src="images/Python2.jpg"></center>
-
-<p>Going forward we would need to do a few actions to develop the program:</p>
-   <p>1.We would need to expand on the response pairs to map out trigger phrases and their responses in the code.</p>
-   <p>2.The FAQ (Frequently Asked Questions) and response pairs will be enhanced using the Conversational User Experience guide from Microsoft.</p>
-   <p>3.I have installed the Speech Recognition module in pip and intend to implement this into the program as it will be able to convert text to speech.</p>
-   <p>4.Also installed gTTS which is the Google Text to Speech module which will allow the program to speak out on its responses.</p>
- <p>5.My current code imports the following:</p>
-    	   <p style="margin-left:3%; margin-right:10%;">a.Flask to provide a web framework in Python</p>
-   	   <p style="margin-left:3%; margin-right:10%;">b.NLTKs Util Chat and Reflections which compiles pairs and self-reflection phrases. The response pairs module I populated will choose a random response if there are multiple             responses to a trigger phrase or word.</p>
-    <p>6.I would like to also utilize the NLTK Tokenize module which separates all user input (Bird, Klein, and Loper, 2011).</p>
-    <p>7.Classify module will look for labels within the tokens that have been tagged and categorized within the program as mentioned in chapter 6 of Bird, Klein, and Loper, 2011.</p>
-    <p>8.We can then import data from Pytorch which will provide a base for the neural AI (Artificial Intelligence) network to transform the chatbot AI from rule-based to Machine Learning.</p>
-<p>While I admit this is an extremely basic chatbot now, it is better to start from a basic plan and build up once we have a working test bot.</p>
-
- 
-<p><h3><b>Conversational UX (User eXperience)</h3></b>
-Another element to consider is conversational user experience, I came across the Conversational User Experience Guide published in May 2021 included in Microsoft's Azure test bot on GitHub. It helps us to identify and plan further details of the chatbot development such as planning for the ideal conversational experience, personality, traits, ‘brand’, identifying key customer intents and implementing a strategy to work towards within the code. For replies we can also determine if the chatbot will use emojis, Gifs, how errors will be handled and how to end the conversation gracefully (Conversational User Experience Guide, 2021).
-
- 
-<h3><b>Benefits of the chatbot</h3></b>
-
- 
-Knowledge base
-The chatbot could act as a purpose-built training tool for internal staff to assist them in answering queries that would not usually come up very often. Consistent answers are provided, and we can ensure the answers built into the code are in line with the Business values and quality check if needed.
-
-Personalisation
-The chatbot can be personalised to interact seamlessly according to the organisation's standards with staff, and it could resemble a human-to-human conversation.
-
-Availability and accessibility
-Features 24-hour availability (Dilmegani, 2022) as it will be posted online in SharePoint. It is possible to process written input and provide audio responses with text-to-speech availability.
-
-Instant responses
-Instant responses (Dilmegani, 2022) will be provided online, and it can multitask if multiple people engage it. Due to the non-delay of responses, efficiency could increase work processing. (CHATBOTS ARE HERE TO STAY So what are you waiting for? 2017) Reduced costs as it does not require an annual employee salary with fewer resources required.
-
-Sentiment analysis
-There are no emotional exchanges in times of stress as the chatbot will not respond to any angry responses. We could include training the chatbot to respond appropriately to de-escalate the situation if needed.
-
-Self service
-In the year 2022, younger people are more likely to want to find the answer to their questions themselves online before asking a human. Shy or introverted personality types may prefer chatbot interactions to a human.
-
-Updates, development, and review chatbot responses
-FAQs (Frequently Asked Questions) and surveys can be reviewed within the organisation to provide regular updates to code. Feedback from staff interactions with the chatbot can be used to increase engagement. Recorded interactions can provide invaluable data to the organisation to understand roadblocks or pain points to staff that can be addressed. Over time we can expand chatbot understanding and services, making it more efficient.
- 
-
-<h3><b>Tools and Technologies</h3></b> 
-
-As outlined in the description, I have addressed the main points in the process flow diagram.
-
-Flask
-Flask will be used within the python code, and we can host from a local server, we can also upload the code to Microsoft Azure and AWS, I am not confident with how that works as they use the SDK framework which is a little different compared to our project of using open-source libraries.
-
-Conversational UX
-We would need to create an FAQ to map out solutions and trigger phrases in the code using the Microsoft CUX guide.
-
-Python IDE (Integrated Development Environment)
-A terminal will be required to write python language and import library as described in the Chatterbot library and documentation (Cox, 2022) and NLTK (Bird, Klein, and Loper, 2011). A Python code editor will be sufficient such as Python IDLE or Visual Studio Code.
-
-NLTK
-NLTK is a Natural Language Toolkit created by the University of Pennsylvania. The software is an open-source collection of libraries for symbolic and statistical natural language processing for English. (Bird, Klein, and Loper, 2011) The NLTK book has a list of software requirements
-
-    		Python
-
-   		    NLTK
-
-    		NLTK-Data (corpora etc)
-		
-  		    NumPy (recommended)
-
-    		Matplotlip (recommended)
-
-   		    Stanford NLP Tools (recommended)
-
-    		NetworkX (optional)
-	
-   		    Prover9 (optional)
-
-GitHub
-Git hub can manage version control of the software during the project development phase.
-
-<h3><b>Skills Required</h3></b>
-
-   		Intermediate skill in writing Python is sufficient, and further code support can be provided by the python documentation and the Chatterbot library and documentation (Cox, 2022)
-    		I believe we can produce this with average skills in writing HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) to host the chatbot program.
-    		Intermediate skills in Computer literacy are required.
-   		Process mapping to match solutions to trigger phrases.
-   		User case stories to describe the customers and intentions of use by modelling input/output on normal conversations.
-    		Basic understanding of NLP/AI to determine the correct processes to implement for the chatbot to recognise the appropriate topic/subject/responses.
-
-<h3><b>Outcome</h3></b>
-If the project is successful, it would have a tool that could be used to answer questions instantly with natural conversation flow. Eventually, it would upskill staff or become a daily tool to provide repetitive answers to frequent questions and be trained over time to answer complex questions.
-The original issue of training and support would be filled with this tool, and staff will be empowered to carry out their jobs knowing they can ask questions any time of the day and get an answer straight away. Productivity could improve, and morale in the teams would increase.
-
-<h3><b>References</h3></b>
-
-<p>Adamopoulou, E. and Moussiades, L., 2020. Chatbots: History, technology, and applications. Machine Learning with Applications, [online] 2(100006). Available at: <https://www.sciencedirect.com/science/article/pii/S2666827020300062> [Accessed 20 March 2022].</p>
-<p>Cleverscript.com. 2022. Cleverscript manual. [online] Available at: <http://www.cleverscript.com/CSL/CleverScriptManual.pdf> [Accessed 20 April 2022].</p>
-<p>Bird, S., Klein, E. and Loper, E., 2011. Natural language processing with Python. Beijing [etc.]: O'Reilly.</p>
-<p>2020. Fig. 3. Chatbots’ Classification. [image] Available at: <https://www.sciencedirect.com/science/article/pii/S2666827020300062> [Accessed 20 March 2022].</p>
-<p>2017. CHATBOTS ARE HERE TO STAY So what are you waiting for? [eBook] Accenture, p.4. Available at: <https://www.accenture.com/_acnmedia/pdf-77/accenture-research-conversational-ai-platforms.pdf> [Accessed 20 March 2022].</p>
-<p>Dilmegani, C., 2022. Top 15 Chatbots Benefits in 2022 For Companies & Customers. [Blog] AI Multiple, Available at: <https://research.aimultiple.com/chatbot-benefits/> [Accessed 20 March 2022].</p> 
-<p>Cox, G., 2022. About ChatterBot — ChatterBot 1.0.8 documentation. [online] Chatterbot.readthedocs.io. Available at: <https://chatterbot.readthedocs.io/en/stable/> [Accessed 20 March 2022].</p>
-<p>Cox, G., n.d. Process flow diagram. [image] Available at: <https://chatterbot.readthedocs.io/en/stable/> [Accessed 20 March 2022].</p>
-<p>Developer.mozilla.org. 2022. Using the Web Speech API - Web APIs | MDN. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API> [Accessed 20 March 2022].</p>
-<p>Ramesh, K., Ravishankaran, S., Joshi, A. and Chandrasekaran, K., 2017. A Survey of Design Techniques for Conversational Agents. Communications in Computer and Information Science, [online] pp.336-350. Available at<https://link.springer.com/chapter/10.1007/978-981-10-6544-6_31> [Accessed 16 April 2022].</p>
-<p>Adamopoulou, E. and Moussiades, L., 2020. Chatbots: History, technology, and applications. Machine Learning with Applications, [online] 2. Available at: <https://www.sciencedirect.com/science/article/pii/S2666827020300062> [Accessed 16 April 2022].</p>
-<p>2021. Conversational User Experience Guide. [eBook] Microsoft. Available at: <https://docs.microsoft.com/en-us/composer/design/conversational-user-experience-design#the-cux-guide> [Accessed 16 April 2022].</p>
-<p>CIO. 2022. What makes a great chatbot? Laser focus on customers. [online] Available at: <https://www.cio.com/article/230485/what-makes-a-great-chatbot-laser-focus-on-customers.html> [Accessed 16 April 2022].</p>
-<p>Ibm.com. 2022. Watson Health Solutions. [online] Available at: <https://www.ibm.com/au-en/watson-health/solutions> [Accessed 20 April 2022].</p> 
-<p>Whitaker, J., Kamath, U. and Liu, J., 2020. DEEP LEARNING FOR NLP AND SPEECH RECOGNITION. [S.l.]: SPRINGER NATURE.</p>
+                    <figure>
+                        <img width="534" height="473" src="images/Python.jpg">
+                    </figure>
+                    
+                    <figure>
+                        <img width="533" height="474" src="images/Python1.jpg">
+                    </figure>
+                    
+                    <figure>
+                        <img width="534" height="473" src="images/Python2.jpg">
+                    </figure>
 
 
+                    <p>Going forward we would need to do a few actions to develop the program:</p>
+                    <ol>
+                        <li>We would need to expand on the response pairs to map out trigger phrases and their responses in the code.</li>
+                        <li>The FAQ (Frequently Asked Questions) and response pairs will be enhanced using the Conversational User Experience guide from Microsoft.</li>
+                        <li>I have installed the Speech Recognition module in pip and intend to implement this into the program as it will be able to convert text to speech.</li>
+                        <li>Also installed gTTS which is the Google Text to Speech module which will allow the program to speak out on its responses.</li>
+                        <li>My current code imports the following:</li>
+                            <ol type="a">
+                                <li>Flask to provide a web framework in Python</li>
+                                <li>NLTKs Util Chat and Reflections which compiles pairs and self-reflection phrases. The response pairs module I populated will choose a random response if there are multiple responses to a trigger phrase or word.</li>
+                            </ol>
+                        <li>I would like to also utilize the NLTK Tokenize module which separates all user input (Bird, Klein, and Loper, 2011).</li>
+                        <li>Classify module will look for labels within the tokens that have been tagged and categorized within the program as mentioned in chapter 6 of Bird, Klein, and Loper, 2011.</li>
+                        <li>We can then import data from Pytorch which will provide a base for the neural AI (Artificial Intelligence) network to transform the chatbot AI from rule-based to Machine Learning.</li>
+                    </ol>
+                    
+                    <p>While I admit this is an extremely basic chatbot now, it is better to start from a basic plan and build up once we have a working test bot.</p>
+                    
+                    <h4>Conversational UX (User eXperience)</h4>
+                    <p>Another element to consider is conversational user experience, I came across the Conversational User Experience Guide published in May 2021 included in Microsoft's Azure test bot on GitHub. It helps us to identify and plan further details of the chatbot development such as planning for the ideal conversational experience, personality, traits, ‘brand’, identifying key customer intents and implementing a strategy to work towards within the code. For replies we can also determine if the chatbot will use emojis, Gifs, how errors will be handled and how to end the conversation gracefully (Conversational User Experience Guide, 2021).</p>
+                    
+                    <h3>Benefits of the chatbot</h3>
+                    
+                    <p>Knowledge base</p>
+                    <p>The chatbot could act as a purpose-built training tool for internal staff to assist them in answering queries that would not usually come up very often. Consistent answers are provided, and we can ensure the answers built into the code are in line with the Business values and quality check if needed.</p>
+
+                    <p>Personalisation</p>
+                    <p>The chatbot can be personalised to interact seamlessly according to the organisation's standards with staff, and it could resemble a human-to-human conversation.</p>
+
+                    <p>Availability and Accessibility</p>
+                    <p>Features 24-hour availability (Dilmegani, 2022) as it will be posted online in SharePoint. It is possible to process written input and provide audio responses with text-to-speech availability.</p>
+
+                    <p>Instant responses</p>
+                    <p>Instant responses (Dilmegani, 2022) will be provided online, and it can multitask if multiple people engage it. Due to the non-delay of responses, efficiency could increase work processing. (CHATBOTS ARE HERE TO STAY So what are you waiting for? 2017) Reduced costs as it does not require an annual employee salary with fewer resources required.</p>
+
+                    <p>Sentiment Analysis</p>
+                    <p>There are no emotional exchanges in times of stress as the chatbot will not respond to any angry responses. We could include training the chatbot to respond appropriately to de-escalate the situation if needed.</p>
+
+                    <p>Self Service</p>
+                    <p>In the year 2022, younger people are more likely to want to find the answer to their questions themselves online before asking a human. Shy or introverted personality types may prefer chatbot interactions to a human.</p>
+                    
+                    <p>Updates, development, and review chatbot responses</p>
+                    <p>FAQs (Frequently Asked Questions) and surveys can be reviewed within the organisation to provide regular updates to code. Feedback from staff interactions with the chatbot can be used to increase engagement. Recorded interactions can provide invaluable data to the organisation to understand roadblocks or pain points to staff that can be addressed. Over time we can expand chatbot understanding and services, making it more efficient.</p>
+
+                    <h4>Tools and Technologies</h4> 
+                    <p>As outlined in the description, I have addressed the main points in the process flow diagram.</p>
+
+                    <p>Flask</p>
+                    <p>Flask will be used within the python code, and we can host from a local server, we can also upload the code to Microsoft Azure and AWS, I am not confident with how that works as they use the SDK framework which is a little different compared to our project of using open-source libraries.</p>
+
+                    <p>Conversational UX</p>
+                    <p>We would need to create an FAQ to map out solutions and trigger phrases in the code using the Microsoft CUX guide.</p>
+
+                    <p>Python IDE (Integrated Development Environment)</p>
+                    <p>A terminal will be required to write python language and import library as described in the Chatterbot library and documentation (Cox, 2022) and NLTK (Bird, Klein, and Loper, 2011). A Python code editor will be sufficient such as Python IDLE or Visual Studio Code.</p>
+
+                    <p>NLTK</p>
+                    <p>NLTK is a Natural Language Toolkit created by the University of Pennsylvania. The software is an open-source collection of libraries for symbolic and statistical natural language processing for English. (Bird, Klein, and Loper, 2011) The NLTK book has a list of software requirements</p>
+
+                    <ul>
+                        <li>Python</li>
+                        <li>NLTK</li>
+                        <li>NLTK-Data (corpora etc)</li>
+                        <li>NumPy (recommended)</li>
+                        <li>Matplotlip (recommended)</li>
+                        <li>Stanford NLP Tools (recommended)</li>
+                        <li>NetworkX (optional)</li>
+                        <li>Prover9 (optional)</li>
+                    </ul>
+
+                    <p>GitHub</p>
+	                <p>Git hub can manage version control of the software during the project development phase.</p>
+
+                    <h4>Skills Required</h4>
+                    <ul>
+                        <li>Intermediate skill in writing Python is sufficient, and further code support can be provided by the python documentation and the Chatterbot library and documentation (Cox, 2022)</li>
+                        <li>I believe we can produce this with average skills in writing HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) to host the chatbot program.</li>
+                        <li>Intermediate skills in Computer literacy are required.</li>
+                        <li>Process mapping to match solutions to trigger phrases.</li>
+                        <li>User case stories to describe the customers and intentions of use by modelling input/output on normal conversations.</li>
+                        <li>Basic understanding of NLP/AI to determine the correct processes to implement for the chatbot to recognise the appropriate topic/subject/responses.</li>
+                    </ul>
+                    
+                    <h4>Outcome</h4>
+                    <p>If the project is successful, it would have a tool that could be used to answer questions instantly with natural conversation flow. Eventually, it would upskill staff or become a daily tool to provide repetitive answers to frequent questions and be trained over time to answer complex questions.</p>
+                    <p>The original issue of training and support would be filled with this tool, and staff will be empowered to carry out their jobs knowing they can ask questions any time of the day and get an answer straight away. Productivity could improve, and morale in the teams would increase.</p>
+
+                    <h4>References</h4>
+                    <p>The references for the project idea can be found <a href="references.html#projectidea">here.</a></p>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
         </main>
 
         <!-- Footer -->       
