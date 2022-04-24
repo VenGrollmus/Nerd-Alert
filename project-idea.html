@@ -120,11 +120,15 @@
                     <p>The project motivation cornerstone is based on helping people and I want to drive the focus of the plan towards supporting staff to do their jobs in an efficient and timely manner by creating this tool, building up a knowledge base, and then teaching it to provide the most appropriate answers. The points of conversational user experience outlined by Microsoft (Conversational User Experience Guide, 2021) will allow us to create a solid plan on how we want the chatbot to respond, give it a personality, and map out typical conversations from the user perspective. That will give us a good base to set up the appropriate environment and data sets to train the chatbot.</p>
                     <p>The Chatbots' classification below shows that a chatbot can be developed and have multiple categories and uses. The categories usually begin from one area and is then expanded over time as required. The algorithms and techniques employed in the chatbot design determines if the chatbot is rule-based or machine learning (Adamopoulou and Moussiades, 2020). Rule based chatbots are pattern matching, where there are pre-defined conversations written into the software and only the last input is taken into consideration, whereas Machine Learning uses NLP and considers the context of the entire conversation. The algorithm and tools are critical in these chatbot designs.</p>
 
-                    <figure>
-                        <img width="560" height="415" src="images/Chatbot.jpg"/>
-                        <figcaption>(Fig. 3. Chatbots’ Classification., 2020)</figcaption>                       
-                    </figure>
-
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <figure>
+                                <img width="560" height="415" src="images/Chatbot.jpg"/>
+                                <figcaption>(Fig. 3. Chatbots’ Classification., 2020)</figcaption>                       
+                            </figure>
+                        </div>
+                    </div>
+                    
                     <p>(Adamopoulou and Moussiades, 2020) If we were to further explore rule-based chatbot software, there are some available open-source examples at <a href="https://www.rivescript.com/" target="_blank">RiveScript</a> and <a href="http://chatscript.sourceforge.net/" target="_blank">ChatScript</a>. Rule based chatbots such as Clever Bot, Chatfuel, and Watson are just a few examples of pattern matching rule-based approaches to chatbot design (Ramesh, Ravishankaran, Joshi and Chandrasekaran, 2017).</p>
 
                     <p>Cleverbot affiliated with Google matches input with existing conversations to respond. The cleverscript manual was interesting as it details the process, they followed in populating the input and output of the bot. They listed key words with responses and then expanded on the phrases and the different variations of the input words to recognise a wide range of broad questions (Cleverscript manual, 2022). Chatfuel is an Instagram, Facebook chatbot used to increase sales and integrated with an internal CRM system. Watson is a chatbot used to provide a wide range of advice but is well-known for health advice and the accuracy Watson has in diagnosing conditions based on a large amount of data. (Watson Health Solutions, 2022).</p>
@@ -134,11 +138,15 @@
                     <h4>Description</h4>
                     <p>The project is loosely based on the Chatterbot documentation produced by Gunther Cox, which details all aspects of Gunther’s code in the Chatterbot module. Here we will consider Gunther’s process flow diagram as a good starting point to build the project plan.</p>
                     
-                    <figure>
-                        <img width="375" height="550" src="images/Descriptions.jpg">
-                        <figurecaption>(Cox, n.d.)</figurecaption>
-                    </figure>
-
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <figure>
+                                <img width="375" height="550" src="images/Descriptions.jpg"><br>
+                                <figurecaption>(Cox, n.d.)</figurecaption>
+                            </figure>
+                        </div>
+                    </div>
+                    
                     <p><strong>To further expand on the points in the diagram:</strong></p>
                     <p><u>Application Programming Interface (API)</u></p>
                     <p>A web API would be sufficient on SharePoint, we can focus on building a basic outline of a chatbot in python and host it online using Flask. There are also other options if that does not work out as expected, such as AWS (Amazon Web Services) and Azure.</p>
@@ -159,18 +167,29 @@
                     <p><strong><u>Process Input Logic adapters</u></strong></p>
                     <p>Currently my test bot output is not very smart as it is using the chat util module in nltk, where I have entered a simple conversation and matched input with responses as shown below. My test bot code is found on GitHub here: <a href="https://github.com/Samanthaporium22/chatbot" target="_blank">Sam's Git Hub.</a></p>
 
-                    <figure>
-                        <img width="534" height="473" src="images/Python.jpg">
-                    </figure>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <figure>
+                                <img width="534" height="473" src="images/Python.jpg">
+                            </figure>
+                        </div>
+                    </div>
                     
-                    <figure>
-                        <img width="533" height="474" src="images/Python1.jpg">
-                    </figure>
-                    
-                    <figure>
-                        <img width="534" height="473" src="images/Python2.jpg">
-                    </figure>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <figure>
+                                <img width="533" height="474" src="images/Python1.jpg">
+                            </figure>
+                        </div>
+                    </div>
 
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <figure>
+                                <img width="534" height="473" src="images/Python2.jpg">
+                            </figure>
+                        </div>
+                    </div>
 
                     <p>Going forward we would need to do a few actions to develop the program:</p>
                     <ol>
